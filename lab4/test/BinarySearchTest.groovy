@@ -44,19 +44,19 @@ private BinarySearch bs=new BinarySearch();
     // @Test
     // public void hello() {}
     @Test 
-    public void BinarySearchTest01
+    public void BinarySearchTest01()
     {
         assertEquals(0,bs.rank(1,arr));
     }
     
     @Test 
-    public void BinarySearchTest02
+    public void BinarySearchTest02()
     {
         assertEquals(1,bs.rank(2,arr));
     }
     
     @Test 
-    public void BinarySearchTest03
+    public void BinarySearchTest03()
     {
         assertEquals(9,bs.rank(10,arr));
     }
